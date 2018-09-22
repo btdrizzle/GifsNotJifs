@@ -7,6 +7,11 @@
 }
 #make-button, #buttons-view {
     min-height: 150px;
-    
-    
+}
+body {
+    background: url("https://media.giphy.com/media/U3qYN8S0j3bpK/source.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
