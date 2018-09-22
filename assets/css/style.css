@@ -1,0 +1,11 @@
+#logo img {
+    max-height: 150px;
+    border-radius: 10%;
+}
+#title h1 {
+    font-size: 3rem;
+}
+#make-button, #buttons-view {
+    min-height: 150px;
+    
+}
