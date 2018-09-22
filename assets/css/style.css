@@ -1,17 +1,42 @@
 #logo img {
     max-height: 150px;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 #title h1 {
     font-size: 3rem;
+    margin: 20px;
+}
+#title {
+    background-color: #5d200f;
+    color:white;
+    font-weight: bold;
+    border-radius: 5%;
+}
+header {
+    margin-bottom: 10px;
 }
 #make-button, #buttons-view {
     min-height: 150px;
+    background-color: #dc5029;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
 }
 body {
     background: url("../Images/leavesBackground.jpg");
 
 }
-#add-topic {
+
+.btn {
     background-color: #9F371A;
+    color: white;
+}
+.btn:hover {
+    background-color: #7d2b14;
+}
+.giffyyy {
+    background-color: #5d200f;
+    color:white;
+    font-weight: bold;
+    border-radius: 5%;
 }

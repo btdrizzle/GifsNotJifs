@@ -9,7 +9,6 @@ function makeButtons() {
         button.addClass("topic btn m-2");
         button.attr('data-name', topic);
         button.attr('data-gifSet', 0);
-        button.css({'background-color': '#9F371A'});
         $('#buttons-view').append(button);
     })
 };
@@ -36,13 +35,13 @@ function displayThoseGifs() {
             var newDiv = $('<div>');
             var newImg = $('<img>');
             var newP = $('<p>');
-            newDiv.addClass('d-inline-block mr-2 text-center');
+            newDiv.addClass('d-inline-block mr-2 text-center giffyyy mb-2');
             newImg.attr('src',response.data[i].images.fixed_height_still.url);
             newImg.attr('data-still',response.data[i].images.fixed_height_still.url);
             newImg.attr('data-animated',response.data[i].images.fixed_height.url);
             newImg.attr('data-state',"still");
             newImg.addClass('gif');
-            newImg.css({'border-radius':'10%'});
+            newImg.css({'border-radius':'5%'});
             newP.addClass('lead');
             newP.text(("Rating: " + response.data[i].rating).toUpperCase());
             newDiv.append(newImg);
