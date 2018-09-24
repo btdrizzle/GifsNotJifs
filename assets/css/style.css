@@ -40,3 +40,32 @@ body {
     font-weight: bold;
     border-radius: 5%;
 }
+
+@media (max-width: 768px) {
+    html {
+      font-size: .75rem;
+    }
+    #title h1 {
+        font-size: 1.5rem;
+    }
+    .giffyyy {
+        margin: auto;
+    }
+    .giffyyy img {
+        max-width: 250px;
+    }
+    #allTheGifs {
+        margin:auto;
+    }
+    #bigContainer {
+        margin:auto;
+    }
+    #logo, #title {
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    #make-button, #buttons-view {
+        margin-bottom: 10px;
+    }
+    
+}
