@@ -23,7 +23,7 @@ function displayThoseGifs() {
     var topicName = $(this).attr("data-name");
     var apiKey = "45G4PntQBFpQgod6lK4hSRmFSF96etGP";
     var limit = 100;
-    var queryUrl = `http://api.giphy.com/v1/gifs/search?q=${topicName}&api_key=${apiKey}&limit=${limit}`;
+    var queryUrl = `https://api.giphy.com/v1/gifs/search?q=${topicName}&api_key=${apiKey}&limit=${limit}`;
     var giffy = $.get(queryUrl);
     var gifNum = parseInt($(this).attr('data-gifSet'));
     giffy.done(function (response) {
