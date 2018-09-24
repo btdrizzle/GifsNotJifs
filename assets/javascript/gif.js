@@ -27,11 +27,9 @@ function displayThoseGifs() {
     var giffy = $.get(queryUrl);
     var gifNum = parseInt($(this).attr('data-gifSet'));
     giffy.done(function (response) {
-        console.log(response.data);
-        console.log(gifNum);
         for(i = gifNum;i < (gifNum + 10);i++) {
 
-            console.log(response.data[i]);
+            
             var newDiv = $('<div>');
             var newImg = $('<img>');
             var newP = $('<p>');
